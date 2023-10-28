@@ -9,3 +9,14 @@ We include code for all experiments in the paper: SNLI and Sentiment140. The exp
 You'll need to download and process the datasets yourself to run the experiments. For SNLI, follow the instructions from the [SNLI Corpus](https://nlp.stanford.edu/projects/snli/) and place the resulting dataset at ``data/snli``. For Sentiment140, follow the instructions from the [LEAF benchmark](https://github.com/TalwalkarLab/leaf) and place the resulting dataset at ``data/sent140``.
 
 All of the experiments are in Python with PyTorch and only require common packages like numpy.
+
+### Citation
+If you found this repository helpful, please cite our paper:
+```
+@inproceedings{crawshaw2023episodeplus,
+  title={Federated Learning with Client Subsampling, Data Heterogeneity, and Unbounded Smoothness: A New Algorithm and Lower Bounds},
+  author={Crawshaw, Michael and Bao, Yajie and Liu, Mingrui},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2023}
+}
+```
